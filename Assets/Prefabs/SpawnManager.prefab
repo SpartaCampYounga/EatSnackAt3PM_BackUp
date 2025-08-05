@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7341188716950087474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 70487936836329459}
+  - component: {fileID: 6392962594258182729}
+  m_Layer: 0
+  m_Name: SpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &70487936836329459
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7341188716950087474}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6392962594258182729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7341188716950087474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf73074f0382cdb4d97482c21200dfc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacleTopAPrefab: {fileID: 5274462939969222768, guid: effd6343313c12f498d9852fd09f4fc9, type: 3}
+  obstacleTopBPrefab: {fileID: 7802689750949744255, guid: 61636aa875f39fb4e97f92e823f75a88, type: 3}
+  obstacleBotAPrefab: {fileID: 6827845806679023423, guid: 6a23890bbee3442408a0783f6f519316, type: 3}
+  obstacleBotBPrefab: {fileID: 8277595793484319287, guid: d34304fbedfab194e98e9e47dcc368c4, type: 3}
+  breakableObstaclePrefab: {fileID: 751668914780710500, guid: c811231292c78f94c8d0df332fb255d2, type: 3}
+  coinItemAPrefab: {fileID: 163731351021526248, guid: 4a8cc3c16d350534abf282fabce581c3, type: 3}
+  coinItemBPrefab: {fileID: 7790831306140494515, guid: 067b2da1cea01404bbc17629dc9f1bb3, type: 3}
+  recoveryItemPrefab: {fileID: 7858876677893516950, guid: ebfdd0fe6050d4a4a925cc72fd73900b, type: 3}
+  SpeedUpItemPrefab: {fileID: 5865038146276636957, guid: da5754671b824e04398fbfe92631eb13, type: 3}
+  magnetItemPrefab: {fileID: 6870334193149597295, guid: 2e004745a40407a40af7145c42825cf7, type: 3}
+  invincibleItemPrefab: {fileID: 7976817776411388008, guid: a2b1e18982cdcd541a82fa673e6578b6, type: 3}
+  presets:
+  - {fileID: 1691872668582806202, guid: 43c751327020b174da0bd8f2dcf7248a, type: 3}
+  - {fileID: 1691872668582806202, guid: 5cb7c81b0be1a3c40b51867de4facf09, type: 3}
+  - {fileID: 727818018675675900, guid: 7f3ea23a4d40a0e4fb084af38a2101e4, type: 3}
+  - {fileID: 3362067708958942975, guid: 247695a0f24838e4280d4b2ea89d95b2, type: 3}
+  - {fileID: 8787729361623910301, guid: 45bcdd6fff1fc0b458a27a1b1e37cd7a, type: 3}
+  - {fileID: 3543845624964238754, guid: f70310051db42b740811bfeba1db1153, type: 3}
+  - {fileID: 2437720123934274052, guid: 6d1b8770dd0b3f14c9fc54c471d7509d, type: 3}
+  - {fileID: 4043602493443524629, guid: f255c89a43545f04387043c31a18b38e, type: 3}
+  - {fileID: 5300969931984794810, guid: 7be79f8caefb4a142927e1427154c64e, type: 3}
+  - {fileID: 1345257511612813570, guid: ed4da0fe4ae03164aba342851ada7978, type: 3}
+  - {fileID: 3181994573644978, guid: 2370388279a952a46b8830ebb46aa3c5, type: 3}
+  - {fileID: 3181994573644978, guid: b7f0d15267db9834eb978865404141f8, type: 3}
+  - {fileID: 4497576354505596333, guid: fd48498903022144885daa95e44a4f8c, type: 3}
+  - {fileID: 2944048782627873671, guid: de64d37309a5bde468c85882879e67a3, type: 3}
+  - {fileID: 2944048782627873671, guid: 11e304fa34620104f9a449d628ed5e46, type: 3}
+  - {fileID: 2944048782627873671, guid: 3deceedd0b847a047ab2dfff029e7eb5, type: 3}
+  - {fileID: 3129003754946912725, guid: 670b15a6973f6b845bc6715290c31c15, type: 3}
+  - {fileID: 6543003481236442772, guid: dca2141b9deaee24abf72a35fdbd609e, type: 3}
+  _curCount: 0
+  _maxCount: 7
